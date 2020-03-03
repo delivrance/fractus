@@ -39,7 +39,7 @@ configurations and enable experimental flags.
 
 1. Install and configure `emscripten`.
 2. Enter the directory `cd src/wasm`.
-3. Run `emcc -O3 -s TOTAL_MEMORY=1GB -s USE_PTHREADS=1 -s PTHREAD_POOL_SIZE=16 -std=c++2a -o fractus.js fractus.cpp`.
+3. Run `emcc -O3 -s TOTAL_MEMORY=256MB -s USE_PTHREADS=1 -s PTHREAD_POOL_SIZE=16 -std=c++2a -o fractus.js fractus.cpp`.
 
 ## License
 
